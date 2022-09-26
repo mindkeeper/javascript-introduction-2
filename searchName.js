@@ -30,7 +30,7 @@ const searchName = (name, length, search) => {
 };
 
 const getName = (searched, el) => {
-  if (el.toLowerCase().includes(searched)) return true;
+  return el.toLowerCase().includes(searched);
 };
 
-const ex = searchName("an", 3, getName);
+console.log(searchName("an", 3, getName));
