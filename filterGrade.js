@@ -15,4 +15,4 @@ const seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
     .sort((a, b) => a - b)
     .filter((e) => e >= nilaiAwal && e <= nilaiAkhir);
 };
-console.log(seleksiNilai(5, 20, [2, 25, 1, 14, 17, 30, 8]));
+// console.log(seleksiNilai(5, 20, [2, 25, 1, 14, 17, 30, 8]));

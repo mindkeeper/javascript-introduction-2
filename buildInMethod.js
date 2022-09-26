@@ -39,7 +39,7 @@ const unshiftedResult = shiftedArray.unshift(
 // tidak memutasi string yang digunakan
 
 const number = [1, 2, 3, 4, 2, 3, 2, 5];
-console.log(number.indexOf(2, 2));
+// console.log(number.indexOf(2, 2));
 
 // String.prototype.includes(searchElement, startPosition)
 // digunakan untuk mencari apakah sebuah string memiliki string sesuai dengan arguments yang diberikan pada searchElement
@@ -48,4 +48,4 @@ console.log(number.indexOf(2, 2));
 // startPosition digunakan untuk memulai proses pencarian dari index ke berapa
 // tidak memutasi string yang digunakan
 const name = "Nur Cholis Majid";
-console.log(name.toLowerCase().includes("sm"));
+// console.log(name.toLowerCase().includes("sm"));

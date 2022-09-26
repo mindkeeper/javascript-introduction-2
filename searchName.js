@@ -34,4 +34,3 @@ const getName = (searched, el) => {
 };
 
 const ex = searchName("an", 3, getName);
-console.log(ex);
