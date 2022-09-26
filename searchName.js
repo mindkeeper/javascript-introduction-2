@@ -19,7 +19,7 @@ const person = [
 
 const searchName = (name, length, search) => {
   if (!name || typeof name === "number") return "Input search name Invalid";
-  if (!length && length !== 0) return "Input must be a number";
+  if (typeof length !== "number") return "Input must be a number";
   if (length <= 0) return "input must be greater than zero";
   if (typeof search !== "function") return "callback arguments invalid";
   let result = [];
