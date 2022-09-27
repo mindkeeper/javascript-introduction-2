@@ -31,7 +31,7 @@ const searchName = (name, length, search) => {
 };
 
 const getName = (searched, el) => {
-  return el.toLowerCase().includes(searched);
+  return el.toLowerCase().includes(searched.toLowerCase());
 };
 
 console.log(searchName("an", 3, getName));
