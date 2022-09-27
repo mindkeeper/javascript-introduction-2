@@ -24,7 +24,7 @@ const searchName = (name, length, search) => {
   if (typeof search !== "function") return "callback arguments invalid";
   let result = [];
   person.forEach((e) => {
-    if (search(name, e) && result.length < length) result.push(e);
+    if (result.length < length && search(name, e)) result.push(e);
   });
   if (result.length === 0) return "Data Not Found";
   return result;
